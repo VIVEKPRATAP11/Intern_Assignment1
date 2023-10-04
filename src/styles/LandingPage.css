@@ -1,0 +1,17 @@
+.card-wrapper {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.dynamic-route {
+    width: 30%;
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,137 @@
+.card {
+  width: 100%;
+  border-radius: 15px;
+  min-height: 540px;
+  background-color: #fffeff;
+  display: flex;
+  flex-direction: column;
+}
+.card-image {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+}
+.card-image-options {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular-tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 44px;
+  background-color: #373ae3;
+  color: #dcddf9;
+  position: absolute;
+  bottom: -15px;
+  left: -10px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.not-popular {
+  display: none;
+}
+.popular-tag::after {
+  content: ' ';
+  width: 20px;
+  height: 20px;
+  background-color: #26289f;
+  border-radius: 50%;
+  left: 0px;
+  position: absolute;
+  bottom: -10px;
+  z-index: -1;
+}
+.card-image img {
+  width: 95%;
+  height: 230px !important;
+  border-radius: 15px;
+  height: auto;
+}
+.location {
+  font-size: 14.4px;
+  font-weight: 200;
+  padding-left: 10px;
+  padding-top: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #515c75;
+}
+.location-icon {
+  color: #ca962f;
+  font-weight: 600;
+  margin-right: 5px;
+}
+.h-name {
+  min-height: 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-top: 15px;
+  color: #494849;
+  padding-right: 15px;
+}
+.details-boxes {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  color: #4a5770;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px dotted lightgray;
+}
+.box {
+  width: 23%;
+  height: 80px;
+  display: flex;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 7px;
+  border-right: 1px dotted lightgray;
+  margin-bottom: 10px;
+}
+.price-details {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.price {
+  font-size: 13px;
+  font-weight: 600;
+  color: #535252;
+}
+.price span {
+  font-size: 20px;
+  color: #4a4aff;
+  font-weight: 600;
+}
